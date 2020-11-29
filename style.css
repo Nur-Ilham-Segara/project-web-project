@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    padding: 35 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper{
+    padding: 270px 0 70px 0;
+    background: url(https://www.silicon.co.uk/wp-content/uploads/2012/11/beboy.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    color:blue;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 100;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 100;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: rgb(253, 253, 255);
+    display: inline-block;
+    opacity: 100;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.signup {
+    background-color: rgb(3, 59, 241);
+}
+
+.facebook {
+    background-color: rgb(3, 59, 241);
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: rgb(3, 59, 241);
+}
+
+header {
+    height: 70px;
+    width: 1350px;
+    background-color: rgb(7, 34, 70);
+    float: left;
+    font-size: 30px;
+}
+
+.header-left {
+    float: left;
+    padding: 15PX 20PX;
+}
+
+.header-right {
+    float: right;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgb(87, 2, 2);
+}
+
+.header-right a {
+    line-height: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: rgb(213, 250, 4);
+    display: block;
+}
+
+footer {
+    height: 130px;
+    width: 1350px;
+    background-color: rgb(7, 34, 70);
+    float: left;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* untuk HP */
+@media ( max-width: 720px) {
+    .container {
+    width: 100%;}
+.top-wrapper{padding: 270px 0 70px 0; background: url(https://www.silicon.co.uk/wp-content/uploads/2012/11/beboy.jpg) ; background-repeat: no-repeat; background-size: cover; height: 450px; color:blue; text-align: center;}
+.top-wrapper h1 {opacity: 100; font-size: 50px; letter-spacing: 5px; margin-bottom: 10px;}
+.top-wrapper p {opacity: 100; margin-bottom: 10px;}
+.btn {padding: 12px 24px; color: rgb(253, 253, 255); display: inline-block; opacity: 100; border-radius: 4px;}
+.btn:hover{opacity: 1;}
+.signup {background-color: rgb(3, 59, 241);}
+.facebook {background-color: rgb(3, 59, 241); margin-right: 10px;}
+.twitter {background-color: rgb(3, 59, 241);}
+header {height: 70px; width: 1350px; background-color: rgb(7, 34, 70); float: left; font-size: 30px;}
+.header-left {float: left; padding: 15PX 20PX;}
+.header-right {float: right; background-color: white; transition: all 0.5s;}
+.header-right:hover {background-color: rgb(87, 2, 2);}
+.header-right a {line-height: 60px; padding-left: 25px; padding-right: 25px; color: rgb(213, 250, 4); display: block;}
+/* TABLET */
+@media ( min-width: 720px) and (max-width: 992px) { 
+    .container {width: 50%}
+.top-wrapper{padding: 270px 0 70px 0; background: url(https://www.silicon.co.uk/wp-content/uploads/2012/11/beboy.jpg) ; background-repeat: no-repeat; background-size: cover; height: 450px; color:blue; text-align: center;}
+.top-wrapper h1 {opacity: 100; font-size: 50px; letter-spacing: 5px; margin-bottom: 10px;}
+.top-wrapper p {opacity: 100; margin-bottom: 10px;}
+.btn {padding: 12px 24px; color: rgb(253, 253, 255); display: inline-block; opacity: 100; border-radius: 4px;}
+.btn:hover{opacity: 1;}
+.signup {background-color: rgb(3, 59, 241);}
+.facebook {background-color: rgb(3, 59, 241); margin-right: 10px;}
+.twitter {background-color: rgb(3, 59, 241);}
+header {height: 70px; width: 1350px; background-color: rgb(7, 34, 70); float: left; font-size: 30px;}
+.header-left {float: left; padding: 15PX 20PX;}
+.header-right {float: right; background-color: white; transition: all 0.5s;}
+.header-right:hover {background-color: rgb(87, 2, 2);}
+.header-right a {line-height: 60px; padding-left: 25px; padding-right: 25px; color: rgb(213, 250, 4); display: block;}

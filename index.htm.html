@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <style>
+    body {
+       background: url(https://www.silicon.co.uk/wp-content/uploads/2012/11/beboy.jpg);
+       background-repeat: no-repeat;
+       background-size: 1360px;
+    }
+
+      #card {
+        background: rgb(1, 1, 80);
+        border-radius: 8px;
+        height: 410px;
+        margin: 6rem auto 8.1rem auto;
+        width: 329px;
+    }
+
+    #card-content {
+      padding: 12px 54px;
+}
+
+#card-title {
+      font-family: "Georgia", sans-serif;
+      letter-spacing: 4px;
+      padding-bottom: 23px;
+      padding-top: 13px;
+      text-align: center;
+}
+.underline-title {
+      background: -webkit-linear-gradient(right, #f8f7f7, #fffefe);
+      height: 2px;
+      margin: -1.1rem auto 0 auto;
+      width: 89px;
+}
+  </style>
+ </head>
+ <body>
+     <div id="card">
+        <div id="card-title">
+            <h2>MASUK</h2>
+            <div class="underline-title"></div>
+        
+        </div>
+    
+        <form method="post" class="form"> 
+            <label for="user-email" style="padding-top:13px">&nbsp;Email</label>
+  <input
+   id="user-email"
+   class="form-content"
+   type="email"
+   name="email"
+   autocomplete="on"
+   required />
+  <div class="form-border"></div>
+
+<label for="user-Sandi" style="padding-top:13px">&nbsp;Sandi</label>
+  <input
+   id="user-Sandi"
+   class="form-content"
+   type="Sandi"
+   name="Sandi"
+   required />
+  <div class="form-border"></div>
+  
+<a href="#"><legend id="forgot-pass">Lupa Sandi?</legend></a>
+
+<input id="submit-btn" type="submit" name="submit" value="LOGIN" />
+
+<a href="#" id="signup">Belum Memiliki Akun?</a>
+        </form>
+    </div>
+    </body>
+</html>
